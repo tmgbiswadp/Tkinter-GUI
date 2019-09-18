@@ -6,7 +6,6 @@ from tkinter import messagebox
 
 window = tk.Tk()
 
-
 # function to find weather details
 # of any city using openweathermap api
 def tell_weather():
