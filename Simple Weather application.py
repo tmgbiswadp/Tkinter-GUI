@@ -79,7 +79,6 @@ def tell_weather():
 
 
 def clear():
-    # citynameentry.delete(0, "end")
     temperatureentry.delete(0, "end")
     atmpressureentry.delete(0, "end")
     humidityentry.delete(0, "end")
@@ -87,8 +86,8 @@ def clear():
     windspeedentry.delete(0, "end")
     mintemperatureentry.delete(0, "end")
     maxtemperatureentry.delete(0, "end")
-    # messagebox.showinfo("Success","Entry Field cleared successfully")
-    # citynameentry.focus_set()
+    # code to delete the value from entry field
+    citynameentry.focus_set()
 
 
 v = tk.StringVar()
